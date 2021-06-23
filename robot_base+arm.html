@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+<title>Robot</title>
+</head>
+<body >
+  
+   
+   
+    <form action="index.php" method="post">
+        <h1>Control Panel | Robot Arm </h1>
+        <hr></hr>
+        
+        <p >Engine 1 </p>
+<div  >
+    <input type ="range" min="0" max="180" value="90" id="slider" name="slider">
+    <label id="value"></label>
+</div>
+<p>Engine 2</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider2" name="slider2">
+    <label id="value2"></label>
+</div>
+<p>Engine 3</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider3" name="slider3">
+    <label id="value3"></label>
+</div>
+<p>Engine 4</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider4" name="slider4">
+    <label id="value4"></label>
+</div>
+<p>Engine 5</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider5" name="slider5">
+    <label id="value5"></label>
+</div>
+<p>Engine 6</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider6" name="slider6">
+    <label id="value6"></label>
+</div>
+<div> 
+    <input type="submit" value="Save"  id="save" name="save"> <input type="submit" value="Run" id="run" name="run">
+    <br>
+    <h2>Control Panel | Robot Base </h2>
+        <hr></hr>
+    
+    <input type="submit" value="Move left" id="left" name="left"> <input type="submit" value="Move right" id="right" name="right">
+    <br><input type="submit" value="Move forward" id="forward" name="forward"> <input type="submit" value="Move backward" id="backward" name="backward">
+    <br><input type="submit" value="Stop" id="Stop" name="Stop">
+</div>
+
+
+
+   
+    
+    
+    
+
+<script>
+    
+   
+   
+    
+
+    value.innerHTML =slider.value;
+    value2.innerHTML =slider2.value;
+    value3.innerHTML =slider3.value;
+    value4.innerHTML =slider4.value;
+    value5.innerHTML =slider5.value;
+    value6.innerHTML =slider6.value;
+   slider.oninput =function(){
+    value.innerHTML =this.value;
+   }
+   slider2.oninput =function(){
+    value2.innerHTML =this.value;
+
+   }
+   slider3.oninput =function(){
+    value3.innerHTML =this.value;
+   }
+   slider4.oninput =function(){
+    value4.innerHTML =this.value;
+
+   }
+   slider5.oninput =function(){
+    value5.innerHTML =this.value;
+   }
+   slider6.oninput =function(){
+    value6.innerHTML =this.value;
+
+   }
+
+    
+   
+   
+</script>
+</form>
+
+</body>
+</html>

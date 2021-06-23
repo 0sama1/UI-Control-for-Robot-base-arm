@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/3D-Robot-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+#slider{
+    
+    width: 400px;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider2{
+    width: 400px;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider3{
+    width: 400px;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider4{
+    width: 400px;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider5{
+    width: 400px;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider6{
+    width: 400px;
+    height: 7px;
+    border-radius: 1px;
+}
+#value{
+    width: 25px;
+    height: 25px;
+    
+   
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value2{
+    width: 25px;
+    height: 25px;
+    
+    top: 28.5%;
+  
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value3{
+    width: 25px;
+    height: 25px;
+  
+  
+
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value4{
+    width: 25px;
+    height: 25px;
+  
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value5{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value6{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#forward{
+    width: 120px;
+    height: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: rgb(226, 224, 224);
+font-weight: bold;
+color: rgb(0, 0, 0);  
+}
+#left{
+    width: 90px;
+    height: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: rgb(226, 224, 224);
+font-weight: bold;
+color: rgb(0, 0, 0);  
+}
+#right{
+    width: 90px;
+    height: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: rgb(226, 224, 224);
+font-weight: bold;
+color: rgb(0, 0, 0);  
+}
+#backward{
+    width: 120px;
+    height: 30px;
+    background: rgb(226, 224, 224);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+color: rgb(0, 0, 0);  
+}
+#Stop{
+    width: 90px;
+    height: 30px;
+    background: rgb(167, 6, 6);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-weight: bold;
+color: rgb(255, 254, 254);  
+}
+#save{
+    width: 55px;
+    height: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-weight: bold;
+color: rgb(0, 0, 0);
+
+
+    
+}
+#run{
+    width: 55px;
+    height: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-weight: bold;
+color: rgb(3, 112, 10);
+}
