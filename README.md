@@ -1,5 +1,5 @@
 # UI-Control-for-Robot-base-arm
-نصميم واجهة التحكم ودمجها مع واجهة الذراع بأستخدام (HTML+CSS+JS)
+تصميم واجهة التحكم ودمجها مع واجهة الذراع بأستخدام (HTML+CSS+JS)
 
 ملف (robot_base+arm.html)
 
